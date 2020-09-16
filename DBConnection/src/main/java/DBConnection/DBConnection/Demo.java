@@ -34,7 +34,7 @@ public class Demo {
 
 		 makeConnection();
 		 
-		    System.out.println("Inserting a new Person with name TestUser");
+		    System.out.println("Inserting a new Person with name TestUser..");
 		    Person person = new Person();
 		    person.setName("TestUser");
 		    person = insertPerson(person);
